@@ -34,7 +34,7 @@
 그래프를 이용한 현실문제에 가기 전에, 일상적이고 이용하기 좋으며 심지어 technial intervice에서 물어보는 알고리즘을 알려줄게.
 
 1. Breadth First Search (BFS)
-BFS는 root에서 가까운 순서대로 그래프를 탐색하는 것이다. 반복적인 접근에서. 우리는 Queue data structure를 이용하여 각 스텝을 탐색한다. 아래는 BFS그래프 실행 모습이다.
+BFS는 root에서 가까운 순서대로 그래프를 탐색하는 것이다. 반복적인 접근에서. 우리는 Queue data structure를 이용하여 각 스텝을 탐색한다.
 순서 리스트가 첫노드부터 마지막 노드까지 순서대로 호출한다. 
 
 ** traverse through : 탐색하다.  
