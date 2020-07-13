@@ -1,0 +1,40 @@
+오늘날, 우리는 현실 문제를 해결하기 위해서 그래프와 구현에 대하여 더 깊이 있게 배워야한다. 우리가 그래프를 이용하는 상황의 몇 가지 예가 있다.  
+** a dive in to : ~ 더 깊이 있게 
+
+그래프에 대한 알아야 할 것.
+1. vertex(node) - 데이터 저장장소
+2. Connection - 2개의 다른 노드를 연결. 한 방향으로 갈 수 있다. 이 그래프를 'Directed Graoh'또는 'Digraphs'라고 한다. 또한 끝에는 가중치(우선순위)를 가질 수 있따. 
+
+그래프 유형 
+1. Undirected - 양쪽 connection을 가진 노드들이 서로 연결되고 관계가 양뱡향으로 진행되는 것을 확인 할 수 있다. 
+2. Directed - 양쪽 connection을 가진 노드들이 서로 연결되어 있지만 한쪽 방향만 진행한다.( 첫 노드에서 두번째 노드로 )
+3. Weighted - 수치 가중치
+ **numerical : 수치
+ 
+ 그래프의 속성들
+ 속성들이 그래프를 정의하는 것이지 그래프의 특별한 그림이 아니다.  몇가지 그래프 속성이다. 
+ 1. Path - 노드 옆에 있는 노드 순서
+ 2. Coloring - 모든 노드는 다른 색상을 가지고 각 연결 끝에 있는 노드는 고유의 색을 가진다. 
+ 3. Degree - 노드를 가르키는 연결의 수
+ 4. Weight - 연결에 붙은 값
+ 5. Diameter - 그래프 가장 긴/짧은 path
+ 6. Connected graph - 적어도 1개의 노드를 가진 그래프가 노드끼리 path를 가질 떄. 
+** sequence : 순서 
+** adjacent : 인전한.
+** point out O : O을 가르키다.
+
+해결할 수 있는 문제
+그래프 모델에서 질문하고 해결 할 수 있는 문제들이 있다.
+1. Verification - 노드들이 path 형성되 있는지.
+2. Existence - 그래프에 path가 있는지? n경로가 있는지?
+3. Instance - source에서 distance까지 path를 찾아라.
+4. Eunmeration - 그래프 안에 n 경로가 얼마나 있는지?
+5. Optimization - 무엇이 가장 간/짧은 path인지?
+
+그래프를 이용한 현실문제에 가기 전에, 일상적이고 이용하기 좋으며 심지어 technial intervice에서 물어보는 알고리즘을 알려줄게.
+
+1. Breadth First Search (BFS)
+BFS는 root에서 가까운 순서대로 그래프를 탐색하는 것이다. 반복적인 접근에서. 우리는 Queue data structure를 이용하여 각 스텝을 탐색한다. 아래는 BFS그래프 실행 모습이다.
+순서 리스트가 첫노드부터 마지막 노드까지 순서대로 호출한다. 
+
+** traverse through : 탐색하다.  
