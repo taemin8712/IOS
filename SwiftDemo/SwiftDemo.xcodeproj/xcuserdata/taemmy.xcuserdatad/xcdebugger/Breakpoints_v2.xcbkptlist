@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "21891DF2-DA3C-4AC8-AF79-7650F5215AD3"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9E367E3A-8693-43A1-A444-4B1B53ED6563"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SwiftDemo/DemoTable/SideMenuController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  uuid = "9E367E3A-8693-43A1-A444-4B1B53ED6563 - 3e310d5023104c86"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "SwiftDemo.SideMenuController.isShowing(isShow: Swift.Bool, showView: __C.UIView) -&gt; ()"
+                  moduleName = "SwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taemmy/Documents/iOS/SwiftDemo/SwiftDemo/DemoTable/SideMenuController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "44">
+               </Location>
+               <Location
+                  uuid = "9E367E3A-8693-43A1-A444-4B1B53ED6563 - f3b5626d2f54b435"
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in SwiftDemo.SideMenuController.isShowing(isShow: Swift.Bool, showView: __C.UIView) -&gt; ()"
+                  moduleName = "SwiftDemo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/taemmy/Documents/iOS/SwiftDemo/SwiftDemo/DemoTable/SideMenuController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "28"
+                  endingLineNumber = "28"
+                  offsetFromSymbolStart = "114">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
