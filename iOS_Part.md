@@ -49,7 +49,6 @@ A : 넵! 안됩니다^^
 
 </br>
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
 
 </br>
 
@@ -75,8 +74,6 @@ A : 넵! 안됩니다^^
 
 </br>
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
-
 </br>
 
 ## Delegate vs Block vs Notification
@@ -90,8 +87,6 @@ Delegate 와 block 은 이벤트에 대해 하나의 리스너가 있을 때 사
 Notification 은 이벤트에 대해 여러 리스너가 있을 때 사용하면 좋습니다. 예를 들어 UI 가 특정 이벤트를 기반으로 정보를 표시하는 방법을 notification 으로 브로드 캐스팅하여 변경하거나 문서 창을 닫을 때 문서의 객체가 상태를 저장하는지 확인하는 방법으로 notification 을 사용할 수 있습니다. Notification 의 일반적인 목적은 다른 객체에 이벤트를 알리면 적절하게 응답 할 수 있습니다. 그러나 noti 를 받는 객체는 이벤트가 발생한 후에만 반응 할 수 있습니다.
 
 </br>
-
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
 
 </br>
 
@@ -110,15 +105,9 @@ Notification 은 이벤트에 대해 여러 리스너가 있을 때 사용하면
 * 애플 공식문서
   * [애플 개발문서 Language Guide - Automatic Reference Counting](https://docs.swift.org/swift-book/LanguageGuide/AutomaticReferenceCounting.html#//apple_ref/doc/uid/TP40014097-CH20-ID48)
 
-
-* 블로그
-  * [메모리 관리 ARC](http://jhyejun.com/blog/memory-management-arc)
-  * [weak와 unowned의 사용법](http://jhyejun.com/blog/how-to-use-weak-and-unowned)
-  * [클로저에서의 강한 순환 참조](http://jhyejun.com/blog/strong-reference-cycles-in-closure)
-
 </br>
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
+
 
 </br>
 
@@ -134,7 +123,7 @@ A : 마지막 강한 참조가 더 이상 객체를 가리키지 않으면 객�
 
 </br>
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
+
 
 </br>
 
@@ -145,7 +134,7 @@ A : 마지막 강한 참조가 더 이상 객체를 가리키지 않으면 객�
 
 </br>
 
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
+
 
 </br>
 
@@ -196,7 +185,5 @@ A : 마지막 강한 참조가 더 이상 객체를 가리키지 않으면 객�
   > 일반적인 코딩 문제와 iOS 와 관련된 문제들
 
 </br>
-
-[뒤로](https://github.com/JaeYeopHan/for_beginner)/[위로](#part-3-2-ios)
 
 </br>
