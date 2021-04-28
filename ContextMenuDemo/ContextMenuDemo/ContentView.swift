@@ -15,8 +15,25 @@ struct ContentView: View {
     
     var body: some View {
         
-        Myshape().fill(Color.red)
-            .frame(width: 360, height: 350)
+//        Myshape().fill(Color.red)
+//            .frame(width: 360, height: 350)
+        VStack{
+        Text("Text1").modifier(StandardTitle())
+            
+            Button(action: {
+                print("click button")
+            }, label: {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+            }).buttonStyle(PlainButtonStyle())
+            
+            Button(action: {
+                print("click button")
+            }, label: {
+                /*@START_MENU_TOKEN@*/Text("Button")/*@END_MENU_TOKEN@*/
+            }).buttonStyle(NeumorphicButtonStyle(bgColor: .purple))
+            
+            
+        }
         
 //        Path{
 //            path in
@@ -88,8 +105,40 @@ struct  Myshape: Shape {
         return path
     }
 }
+struct StandardTitle : ViewModifier{
+    func body(content: Content) -> some View {
+        content
+            .font(.largeTitle)
+            .background(Color.white)
+            .border(Color.gray,width: 0.2)
+    }
+}
+
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+struct NeumorphicButtonStyle: ButtonStyle {
+    var bgColor: Color
+
+    func makeBody(configuration: Self.Configuration) -> some View {
+        configuration.label
+            .padding(20)
+            .background(
+                ZStack {
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+                        .shadow(color: .white, radius: configuration.isPressed ? 7: 10,
+                                x: configuration.isPressed ? -5: -15, y: configuration.isPressed ? -5: -15)
+                        .shadow(color: .black, radius: configuration.isPressed ? 7: 10, x: configuration.isPressed ? 5: 15, y: configuration.isPressed ? 5: 15)
+                        .blendMode(.overlay)
+                    RoundedRectangle(cornerRadius: 10, style: .continuous)
+                        .fill(bgColor)
+                }
+        )
+            .scaleEffect(configuration.isPressed ? 0.95: 1)
+            .foregroundColor(.primary)
+            .animation(.spring())
     }
 }
